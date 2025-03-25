@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+}
+
+.img1:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) rotate(360deg);
+    transition: 1s ease all;
+}
+
+
+.img2{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter: grayscale();
+}
+
+.img2:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) rotate3d(360deg);
+    transition: 1s ease all;
+}
+
+.img3{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter:drop-shadow();
+}
+
+.img3:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) rotateX(360deg);
+    transition: 1s ease all;
+}
+
+.img4{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter:sepia()
+}
+
+.img4:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) rotateY(360deg);
+    transition: 1s ease all;
+}
+
+
+
+.img5{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter:invert()
+}
+
+.img5:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) skewX(360deg);
+    transition: 1s ease all;
+}
+
+.img6{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter:contrast()
+}
+
+.img6:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) skewY(360deg);
+    transition: 1s ease all;
+}
+
+.img7{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 2s ease all;
+    filter:hue-rotate();
+}
+
+.img7:hover{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 0px;
+    border: 2px solid black;
+    transform: scale(1.5) matrix(260deg);
+    transition: 1s ease all;
+}

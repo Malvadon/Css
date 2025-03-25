@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
+
+.texto2{
+    font-family: "Noto Sans Gunjala Gondi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ultra';
+    src: url('Ultra\ Cream.otf')
+    format('Truetype');
+
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.texto3{
+    font-family: 'Ultra';
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
+
+
+@font-face {
+    font-family: 'Big';
+    src: url('BIG\ BREAST\ FONT\ Regular.ttf')
+    format('Truetype');
+
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.texto4{
+    font-family: 'Big';
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
+
+
+@font-face {
+    font-family: 'Pen';
+    src: url('Penis\ Typography\ Regular.ttf')
+    format('Truetype');
+
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.texto5{
+    font-family: 'Pen';
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
+
+
+@font-face {
+    font-family: 'Grafity';
+    src: url('GraffitiYouth-Regular.otf')
+    format('Truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.texto6{
+    font-family: 'Grafity';
+    font-size: 100px;
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
+
+@font-face {
+    font-family: 'Pascua';
+    src: url('EasterTime.ttf')
+    format('Truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.texto7{
+    font-family: 'Pascua';
+    font-size: 200px;
+    color: rebeccapurple;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-style: italic;
+    text-shadow: 4px 4px 0px black;
+}
