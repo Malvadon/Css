@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.cabeza{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 100%;
+    position: relative;
+    left: 700px;
+
+}
+
+.torso{
+    width: 10px;
+    height: 300px;
+    background: yellow;
+    border-radius: 5px;
+    position: relative;
+    left: 745px;
+}
+
+.manoIzquierda{
+    width: 5px;
+    height: 300px;
+    background: yellow;
+    border-radius: 20px;
+    rotate: 70deg;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+.manoDerecha{
+    width: 5px;
+    height: 300px;
+    background: yellow;
+    border-radius: 20px;
+    rotate: -70deg;
+    position: absolute;
+    top: 50px;
+    right: 700px;
+}
+
+.piernaIzquierda{
+    width: 5px;
+    height: 350px;
+    background: yellow;
+    border-radius: 20px;
+    rotate: 50deg;
+    position: absolute;
+    top: 330px;
+    left: 610px;
+}
+
+.piernaDerecha{
+    width: 5px;
+    height: 350px;
+    background: yellow;
+    border-radius: 20px;
+    rotate: -70deg;
+    position: absolute;
+    top: 279px;
+    right: 700px;
+}

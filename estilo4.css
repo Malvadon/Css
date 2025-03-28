@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: black;
+  }
+  
+  div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background: yellow;
+    margin: 5px;
+    
+  }
+  
+  .relativo{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background: red;
+  }
+  
+  .abs{
+    position: absolute;
+    top:10px;
+    left: 0px;
+    background: green;
+    opacity: 0.5;
+  }
+  
+  .abs2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: blue;
+  }
+  
+  .abs3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: blue;
+  }
+  
+  .abs4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: blue;
+  }
+  
+  .fijo{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background: purple;
+  }
+  
+  .pegajoso{
+    position: sticky;
+    top: 0px;
+    background: white;
+  }
+  
+  .a1{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    background: red;
+    opacity: 0.5;
+  }
+  
+  .a2 {
+    position: absolute;
+    top: 525px;
+    left: 525px;
+    background: aqua;
+    opacity: 0.5;
+  }
+  
+  .a3{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    background: indigo;
+    opacity: 0.5;
+  }
+  
+  .a4 {
+    position: absolute;
+    top: 575px;
+    left: 575px;
+    background: coral;
+    opacity: 0.5;
+    z-index: 6;
+  }
+
+  .cajita29{
+
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    background: blue;
+
+  }
